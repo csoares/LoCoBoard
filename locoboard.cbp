@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="locoboard" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\locoboard" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\locoboard" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="$(#opencv)\include\opencv" />
+			<Add directory="oscpack" />
+			<Add directory="oscpack\osc" />
+			<Add directory="oscpack\ip" />
+		</Compiler>
+		<Linker>
+			<Add option="-lcv200" />
+			<Add option="-lcvaux200" />
+			<Add option="-lcxcore200" />
+			<Add option="-lcxts200" />
+			<Add option="-lhighgui200" />
+			<Add option="-lml200" />
+			<Add option="-lwsock32" />
+			<Add option="-lwinmm" />
+			<Add option="-lws2_32" />
+			<Add directory="$(#opencv.lib)" />
+			<Add directory="oscpack\lib\win32" />
+		</Linker>
+		<Unit filename="Algorithms.cpp" />
+		<Unit filename="Algorithms.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="osc.cpp" />
+		<Unit filename="osc.h" />
+		<Unit filename="oscpack\ip\IpEndpointName.cpp" />
+		<Unit filename="oscpack\ip\IpEndpointName.h" />
+		<Unit filename="oscpack\ip\NetworkingUtils.h" />
+		<Unit filename="oscpack\ip\PacketListener.h" />
+		<Unit filename="oscpack\ip\TimerListener.h" />
+		<Unit filename="oscpack\ip\UdpSocket.h" />
+		<Unit filename="oscpack\ip\win32\NetworkingUtils.cpp" />
+		<Unit filename="oscpack\ip\win32\UdpSocket.cpp" />
+		<Unit filename="oscpack\osc\MessageMappingOscPacketListener.h" />
+		<Unit filename="oscpack\osc\OscException.h" />
+		<Unit filename="oscpack\osc\OscHostEndianness.h" />
+		<Unit filename="oscpack\osc\OscOutboundPacketStream.cpp" />
+		<Unit filename="oscpack\osc\OscOutboundPacketStream.h" />
+		<Unit filename="oscpack\osc\OscPacketListener.h" />
+		<Unit filename="oscpack\osc\OscPrintReceivedElements.cpp" />
+		<Unit filename="oscpack\osc\OscPrintReceivedElements.h" />
+		<Unit filename="oscpack\osc\OscReceivedElements.cpp" />
+		<Unit filename="oscpack\osc\OscReceivedElements.h" />
+		<Unit filename="oscpack\osc\OscTypes.cpp" />
+		<Unit filename="oscpack\osc\OscTypes.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

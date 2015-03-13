@@ -1,0 +1,227 @@
+# depslib dependency file v1.0
+1311694956 source:d:\projects\locoboard\locoboard_win32\algorithms.cpp
+	"Algorithms.h"
+
+1311695472 d:\projects\locoboard\locoboard_win32\algorithms.h
+	<OpenCV/cv.h>
+	<OpenCV/cvaux.h>
+	<OpenCV/highgui.h>
+	<ApplicationServices/ApplicationServices.h>
+	<cv.h>
+	<cvaux.h>
+	<highgui.h>
+	<windows.h>
+	<process.h>
+	<QtGui/qcursor.h>
+	<cv.h>
+	<cvaux.h>
+	<highgui.h>
+	<SDL.h>
+	<X11/extensions/XTest.h>
+	<sys/time.h>
+	<unistd.h>
+	<assert.h>
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<vector>
+	<map>
+	<iostream>
+	<sys/time.h>
+	<math.h>
+	"osc.h"
+
+1254001710 d:\progs\opencv2.0\include\opencv\cv.h
+	<chdl.h>
+	"cxcore.h"
+	"cvtypes.h"
+	"cv.hpp"
+	"cvcompat.h"
+
+1254001710 d:\progs\opencv2.0\include\opencv\cxcore.h
+	"ipl.h"
+	"ipl/ipl.h"
+	"cxtypes.h"
+	"cxerror.h"
+	"cvver.h"
+	"cxcore.hpp"
+
+1254331956 d:\progs\opencv2.0\include\opencv\cxtypes.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	<stdint.h>
+	<emmintrin.h>
+	<mmintrin.h>
+	<fastmath.h>
+	<math.h>
+	<ipl.h>
+	<ipl/ipl.h>
+
+1254001710 d:\progs\opencv2.0\include\opencv\cxerror.h
+
+1254326910 d:\progs\opencv2.0\include\opencv\cvver.h
+
+1254326910 d:\progs\opencv2.0\include\opencv\cxcore.hpp
+	"cxmisc.h"
+	<algorithm>
+	<cmath>
+	<complex>
+	<map>
+	<new>
+	<string>
+	<vector>
+	"cxoperations.hpp"
+	"cxmat.hpp"
+	"cxflann.h"
+
+1254001710 d:\progs\opencv2.0\include\opencv\cxmisc.h
+	"cvconfig.h"
+	<limits.h>
+	"omp.h"
+	<malloc.h>
+	<alloca.h>
+	<stdlib.h>
+
+1254326910 d:\progs\opencv2.0\include\opencv\cxoperations.hpp
+	<string.h>
+	<limits.h>
+	<ext/atomicity.h>
+	<bits/atomicity.h>
+	"windows.h"
+
+1254329798 d:\progs\opencv2.0\include\opencv\cxmat.hpp
+	<limits.h>
+
+1254001710 d:\progs\opencv2.0\include\opencv\cxflann.h
+
+1254001710 d:\progs\opencv2.0\include\opencv\cvtypes.h
+	<assert.h>
+	<stdlib.h>
+
+1254094444 d:\progs\opencv2.0\include\opencv\cv.hpp
+
+1254001710 d:\progs\opencv2.0\include\opencv\cvcompat.h
+	<string.h>
+
+1254001712 d:\progs\opencv2.0\include\opencv\cvaux.h
+	"cv.h"
+	"cvaux.hpp"
+	"cvvidsurv.hpp"
+
+1254326910 d:\progs\opencv2.0\include\opencv\cvaux.hpp
+	<iosfwd>
+
+1254001710 d:\progs\opencv2.0\include\opencv\cvvidsurv.hpp
+	<stdio.h>
+
+1254001710 d:\progs\opencv2.0\include\opencv\highgui.h
+	"cxcore.h"
+	<windows.h>
+	<chdl.h>
+	"highgui.hpp"
+
+1254001712 d:\progs\opencv2.0\include\opencv\highgui.hpp
+
+1311525534 d:\projects\locoboard\locoboard_win32\osc.h
+	<map>
+	<cv.h>
+	<highgui.h>
+	"OscOutboundPacketStream.h"
+	"UdpSocket.h"
+	<OpenCV/cv.h>
+	<OpenCV/highgui.h>
+	"OscOutboundPacketStream.h"
+	"UdpSocket.h"
+	<stdio.h>
+	<string>
+	<iostream>
+
+1311635512 d:\projects\locoboard\locoboard_win32\oscpack\osc\oscoutboundpacketstream.h
+	"OscTypes.h"
+	"OscException.h"
+
+1311635512 d:\projects\locoboard\locoboard_win32\oscpack\osc\osctypes.h
+
+1311635512 d:\projects\locoboard\locoboard_win32\oscpack\osc\oscexception.h
+	<exception>
+
+1311635512 d:\projects\locoboard\locoboard_win32\oscpack\ip\udpsocket.h
+	"NetworkingUtils.h"
+	"IpEndpointName.h"
+
+1311635512 d:\projects\locoboard\locoboard_win32\oscpack\ip\networkingutils.h
+
+1311635512 d:\projects\locoboard\locoboard_win32\oscpack\ip\ipendpointname.h
+
+1311695705 source:d:\projects\locoboard\locoboard_win32\main.cpp
+	"Algorithms.h"
+
+1311525927 source:d:\projects\locoboard\locoboard_win32\osc.cpp
+	"osc.h"
+
+1311635512 source:d:\projects\locoboard\locoboard_win32\oscpack\ip\ipendpointname.cpp
+	"IpEndpointName.h"
+	<stdio.h>
+	"NetworkingUtils.h"
+
+1311635512 source:d:\projects\locoboard\locoboard_win32\oscpack\ip\win32\networkingutils.cpp
+	"ip/NetworkingUtils.h"
+	<winsock2.h>
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+
+1311635512 source:d:\projects\locoboard\locoboard_win32\oscpack\ip\win32\udpsocket.cpp
+	"ip/UdpSocket.h"
+	<winsock2.h>
+	<windows.h>
+	<mmsystem.h>
+	<vector>
+	<algorithm>
+	<stdexcept>
+	<assert.h>
+	<signal.h>
+	"ip/NetworkingUtils.h"
+	"ip/PacketListener.h"
+	"ip/TimerListener.h"
+
+1311635512 d:\projects\locoboard\locoboard_win32\oscpack\ip\packetlistener.h
+
+1311635512 d:\projects\locoboard\locoboard_win32\oscpack\ip\timerlistener.h
+
+1311635512 source:d:\projects\locoboard\locoboard_win32\oscpack\osc\oscoutboundpacketstream.cpp
+	"OscOutboundPacketStream.h"
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	<malloc.h>
+	"OscHostEndianness.h"
+
+1311635512 d:\projects\locoboard\locoboard_win32\oscpack\osc\oschostendianness.h
+
+1311635512 source:d:\projects\locoboard\locoboard_win32\oscpack\osc\oscprintreceivedelements.cpp
+	"OscPrintReceivedElements.h"
+	<iostream>
+	<iomanip>
+	<ctime>
+	<cstring>
+
+1311635512 d:\projects\locoboard\locoboard_win32\oscpack\osc\oscprintreceivedelements.h
+	<iosfwd>
+	"OscReceivedElements.h"
+
+1311635512 d:\projects\locoboard\locoboard_win32\oscpack\osc\oscreceivedelements.h
+	<cstddef>
+	"OscTypes.h"
+	"OscException.h"
+
+1311635512 source:d:\projects\locoboard\locoboard_win32\oscpack\osc\oscreceivedelements.cpp
+	"OscReceivedElements.h"
+	<cassert>
+	"OscHostEndianness.h"
+
+1311635512 source:d:\projects\locoboard\locoboard_win32\oscpack\osc\osctypes.cpp
+	"OscTypes.h"
+
